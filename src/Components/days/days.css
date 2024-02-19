@@ -1,0 +1,60 @@
+.headingtext {
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.outcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 10rem;
+  width: 72rem;
+  margin-left: 10rem;
+  border-left: 6px outset black;
+  border-top: 6px outset black;
+  border-right: 6px solid black;
+  border-bottom: 6px solid black;
+}
+
+.periodtable {
+  height: 50%;
+  display: flex;
+}
+
+.mondaytable {
+  height: 50%;
+  display: flex;
+}
+
+.daystopbox {
+  width: 8rem;
+  font-size: large;
+  font-weight: bold;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.daysbox {
+  /* height: 50%; */
+  width: 8rem;
+  font-size: large;
+  font-weight: 500;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.labdiv {
+  width: 387px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
